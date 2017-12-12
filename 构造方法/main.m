@@ -10,9 +10,8 @@
 #import "Person.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        Person *p1=[[Person alloc]initWithName:@"幕星人"];
+        Person *p1=[[Person alloc]init];
         NSLog(@"%@",p1.name);
-        
     }
     return 0;
 }
