@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		86F700191FDF899F004BF481 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F700181FDF899F004BF481 /* main.m */; };
+		86F700211FDF89EB004BF481 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F700201FDF89EB004BF481 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		86F700151FDF899F004BF481 /* 构造方法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "构造方法"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F700181FDF899F004BF481 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86F7001F1FDF89EB004BF481 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		86F700201FDF89EB004BF481 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				86F700181FDF899F004BF481 /* main.m */,
+				86F7001F1FDF89EB004BF481 /* Person.h */,
+				86F700201FDF89EB004BF481 /* Person.m */,
 			);
 			path = "构造方法";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86F700211FDF89EB004BF481 /* Person.m in Sources */,
 				86F700191FDF899F004BF481 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
